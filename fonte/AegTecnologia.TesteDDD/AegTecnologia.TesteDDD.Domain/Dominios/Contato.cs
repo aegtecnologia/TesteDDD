@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AegTecnologia.TesteDDD.Domain.Dominios
+﻿namespace AegTecnologia.TesteDDD.Domain.Dominios
 {
-    class Contato
+    public class Contato
     {
+        public int ContatoId { get; set; }
+        public string PrimeiroNome { get; set; }
+        public string NomeCompleto { get; set; }
+        public string Email { get; set; }
+        public string Telefone { get; set; }
     }
 }

@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AegTecnologia.TesteDDD", "AegTecnologia.TesteDDD\AegTecnologia.TesteDDD.csproj", "{D34ABCAC-1F8D-47B2-94FF-6F2447CC0356}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Domain", "0 - Domain", "{6D91EFBD-EB0F-4D2D-A785-E35E99C3ED78}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Service", "1 - Service", "{1283995F-AFCE-4108-83D0-FB802B4BEE9B}"
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D34ABCAC-1F8D-47B2-94FF-6F2447CC0356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D34ABCAC-1F8D-47B2-94FF-6F2447CC0356}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D34ABCAC-1F8D-47B2-94FF-6F2447CC0356}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D34ABCAC-1F8D-47B2-94FF-6F2447CC0356}.Release|Any CPU.Build.0 = Release|Any CPU
 		{36F421AE-5340-41E6-B35F-6C93BCA640F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{36F421AE-5340-41E6-B35F-6C93BCA640F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36F421AE-5340-41E6-B35F-6C93BCA640F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
