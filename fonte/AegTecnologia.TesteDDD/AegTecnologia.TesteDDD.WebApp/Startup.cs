@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AegTecnologia.TesteDDD.Infra.DI.Extensions;
 using AegTecnologia.TesteDDD.Infra.EF;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,6 +33,7 @@ namespace AegTecnologia.TesteDDD.WebApp
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.ConfigureHangfire();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
@@ -51,6 +53,7 @@ namespace AegTecnologia.TesteDDD.WebApp
                 app.UseHsts();
             }
 
+            app.UseHangfireConfiguration();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
